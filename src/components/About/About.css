@@ -1,0 +1,10 @@
+.about-image img{
+  
+    border-radius: 20px;
+}
+.about-desc{
+    line-height: 1.8;
+}
+li{
+    line-height: 2.0;
+}

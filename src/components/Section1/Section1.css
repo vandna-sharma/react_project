@@ -1,0 +1,30 @@
+.row{
+    padding: 10px 40px;
+}
+.section1{
+    padding: 100px 40px;
+}
+.desc{
+    line-height: 1.8;
+}
+.chair{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chair{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chair img{
+    width: 100%;
+}
+.chair img:hover{
+    background-color: rgb(238, 236, 236);
+    border-radius: 50px;
+    transform: translateY(-25px);
+    transition: 500ms;
+}
+
