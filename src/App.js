@@ -6,6 +6,7 @@ import Section1 from './components/Section1/Section1'
 import About from './components/About/About'
 import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
+import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
   <Section1/>
   <About/>
   <Services/>
+  <FeaturedProducts/>
   <Contact/>
+ 
     </>
   )
 }

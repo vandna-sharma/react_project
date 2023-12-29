@@ -14,7 +14,7 @@ import Services from '../Services/Services'
 
 const Header = () => {
   return (
-  
+    <Router>
     <div className='container-fluid header'>
         <div className='row d-flex justify-space-between'>
             <div className='col-md-2 logo'>
@@ -22,7 +22,7 @@ const Header = () => {
             </div> 
 <div className=' col-sm-12 col-lg-8'>
     <div className='navbar'>
-        <Router>
+       
         <ul>
             <li><Link to ='/'>Home</Link></li>
             <li><Link to ='/Shop'>Shop</Link></li>
@@ -32,14 +32,7 @@ const Header = () => {
             <li><Link to ='/contact'>Contact</Link> </li>
             
         </ul>
-        <Routes>
-            <Route path='/'></Route>
-            <Route path='/about' element={<About/>}></Route>
-            <Route path='/services' element={<Services/>}></Route>
-            <Route path='/contact' element={<Contact/>}></Route>
-
-        </Routes>
-        </Router>
+       
     </div>
 </div>
 <div className='col-md-2 text-end'>
@@ -66,9 +59,16 @@ const Header = () => {
     </div>
 
 </div>
+<Routes>
+            <Route path='/'></Route>
+            <Route path='/about' element={<About/>}></Route>
+            <Route path='/services' element={<Services/>}></Route>
+            <Route path='/contact' element={<Contact/>}></Route>
 
+        </Routes>
+      
     </div>
-
+    </Router>
     
   )
 }

@@ -1,0 +1,19 @@
+.icons{
+    color: rgb(233, 233, 36);
+}
+
+.card-body p{
+line-height: 0;
+}
+.icons{
+align-items: center;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 800ms;
+}
+.dis-price{
+    font-size: 20px;
+    color: grey;
+    padding-left: 15px;
+}
