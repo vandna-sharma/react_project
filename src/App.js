@@ -7,6 +7,9 @@ import About from './components/About/About'
 import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
 import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
+import Newsletter from './components/Newsletter/Newsletter'
+import Blogs from './components/Blogs/Blogs'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -18,6 +21,10 @@ const App = () => {
   <Services/>
   <FeaturedProducts/>
   <Contact/>
+  <Blogs/>
+  <Newsletter/>
+  <Footer/>
+ 
  
     </>
   )
