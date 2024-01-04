@@ -4,7 +4,7 @@ import './Footer.css'
 
 const FooterCol=(props)=>{
     return(
-<div className='col-md-3 pt-4'>
+<div className='col-md-3 col-sm-6 pt-4'>
               <h4>{props.title}</h4>
                 <p>{props.link1}</p>
                 <p>{props.link2}</p>

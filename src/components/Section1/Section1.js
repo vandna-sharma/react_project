@@ -11,7 +11,7 @@ const Section1 = () => {
   return (
     <div className='container-fluid '>
         <div className='row  section1'>
-            <div className='col-lg-4 '>
+            <div className='col-lg-4 left-desc '>
             <h1>Crafted with excellent material</h1>
             <p className='py-4 desc'>While simplicity is a hallmark of Nordic design, comfort is not compromised. Nordic chairs often feature ergonomic designs, ensuring that they are not only aesthetically pleasing but also comfortable for everyday use.</p>
            <button className='btn btn-dark'>SHOP NOW</button>

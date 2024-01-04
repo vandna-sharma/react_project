@@ -9,7 +9,7 @@ const About = () => {
         <div className='col-lg-5 about-image'>
         <img src={about}/>
         </div>
-        <div className='col-lg-7'>
+        <div className='col-lg-7 about-desc'>
           <h1 className='text-center'>About Us</h1>
     <p className='about-desc'>
     Founded in [2000], <strong>SOFASYMPHONY</strong> has been a trusted name in the furniture industry, dedicated to providing our customers with an unparalleled shopping experience. Our journey began with a passion for creating functional yet aesthetically pleasing furniture that enhances the beauty of any living space.
